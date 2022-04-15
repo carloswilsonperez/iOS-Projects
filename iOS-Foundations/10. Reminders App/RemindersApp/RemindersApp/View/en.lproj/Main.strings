@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "10/10/20 5:00PM"; ObjectID = "1cN-H2-BAq"; */
+"1cN-H2-BAq.text" = "10/10/20 5:00PM";
+
+/* Class = "UILabel"; text = "TITLE"; ObjectID = "8R3-A3-wYV"; */
+"8R3-A3-wYV.text" = "TITLE";
+
+/* Class = "UIButton"; normalTitle = "SAVE"; ObjectID = "QBV-Xw-W8I"; */
+"QBV-Xw-W8I.normalTitle" = "SAVE";
+
+/* Class = "UILabel"; text = "Go to gym"; ObjectID = "Zdg-IN-4ba"; */
+"Zdg-IN-4ba.text" = "Go to gym";
+
+/* Class = "UILabel"; text = "DATE"; ObjectID = "f8I-sM-diC"; */
+"f8I-sM-diC.text" = "DATE";
+
+/* Class = "UILabel"; text = "Go To Gym"; ObjectID = "ks3-do-keb"; */
+"ks3-do-keb.text" = "Go To Gym";
+
+/* Class = "UINavigationItem"; title = "Reminders"; ObjectID = "lCA-PO-yvU"; */
+"lCA-PO-yvU.title" = "Reminders";
+
+/* Class = "UILabel"; text = "10 / 10 / 20 5:00pm"; ObjectID = "oLH-yB-WEE"; */
+"oLH-yB-WEE.text" = "10 / 10 / 20 5:00pm";
+
+/* Class = "UIBarButtonItem"; title = "Edit"; ObjectID = "srO-hK-oBE"; */
+"srO-hK-oBE.title" = "Edit";
+
+/* Class = "UILabel"; text = "COMPLETED"; ObjectID = "tlA-hk-3Ey"; */
+"tlA-hk-3Ey.text" = "COMPLETED";
