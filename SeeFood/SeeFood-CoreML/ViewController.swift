@@ -20,6 +20,16 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        guard let filePath = Bundle.main.path(forResource: "Info", ofType: "plist") else {
+            fatalError("Couldn't find file 'TMDB-Info.plist'.")
+          }
+          // 2
+          let plist = NSDictionary(contentsOfFile: filePath)
+          guard let value = plist?.object(forKey: "BACKEND_PLIST") as? String else {
+            fatalError("Couldn't find key 'API_KEY' in 'TMDB-Info.plist'.")
+          }
+          print("\(value)")
+        
         imagePicker.delegate = self
     }
     
@@ -78,7 +88,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     
     @IBAction func cameraTapped(_ sender: Any) {
-        imagePicker.sourceType = .camera
+        imagePicker.sourceType = .photoLibrary
         imagePicker.allowsEditing = false
         present(imagePicker, animated: true, completion: nil)
     }
